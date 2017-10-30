@@ -1,4 +1,4 @@
-import { Path, Point, view, setup } from "paper";
+import { Path, Point, view, setup } from "paper"
 
 const begin = () => {
 
