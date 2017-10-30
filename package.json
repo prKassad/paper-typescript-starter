@@ -1,0 +1,27 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline",
+    "predev": "npm run build",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "paper": "^0.11.4"
+  },
+  "devDependencies": {
+    "@types/paper": "^0.9.5",
+    "awesome-typescript-loader": "^3.2.1",
+    "concurrently": "^3.5.0",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.4.1",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
